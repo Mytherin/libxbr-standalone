@@ -1,3 +1,28 @@
+Usage
+==========================
+
+Compilation:
+```
+make
+```
+
+Converting a file using a single algorithm:
+
+```
+# method can be one of [xbr2x|xbr3x|xbr4x|hq2x|hq3x|hq4x]
+# 2x means 2x bigger, 3x means 3x bigger, 4x means 4x bigger
+./a.out input.png output.png [method]
+```
+
+Converting using all algorithms:
+
+```
+python3 convert_all.py [input.png]
+```
+
+This will generate the files `input-xbr2x.png`, `input-xbr3x.png`, etc. for each of the methods.
+
+
 Standalone XBR/hqx Library
 ==========================
 
